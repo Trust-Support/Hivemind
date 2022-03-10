@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "AlterMesh",
+	"Description": "Use geometry nodes inside UnrealEngine",
+	"Category": "ProceduralGeneration",
+	"CreatedBy": "Takain",
+	"CreatedByURL": "https://altermesh.com",
+	"DocsURL": "https://altermesh.com/docs",
+	"MarketplaceURL": "",
+	"SupportURL": "https://discord.gg/kdUW3w6taQ",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+        {
+          "Name": "AlterMesh",
+          "Type": "Runtime",
+          "LoadingPhase": "Default"
+        },
+        {
+          "Name": "AlterMeshRendering",
+          "Type": "Runtime",
+          "LoadingPhase": "PostConfigInit"
+        },
+        {
+          "Name": "AlterMeshEditor",
+          "Type": "Editor",
+          "LoadingPhase": "Default"
+        }
+    ],
+    "Plugins": [
+        {
+          "Name": "Niagara",
+          "Enabled": true
+        }
+    ]
+}

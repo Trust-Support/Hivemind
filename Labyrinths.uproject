@@ -7,6 +7,14 @@
 		{
 			"Name": "MovieRenderPipeline",
 			"Enabled": true
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": true
+		},
+		{
+			"Name": "AlterMesh",
+			"Enabled": true
 		}
 	]
 }
