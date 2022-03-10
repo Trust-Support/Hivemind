@@ -14,7 +14,16 @@
 		},
 		{
 			"Name": "AlterMesh",
-			"Enabled": true
+			"Enabled": false
+		},
+		{
+			"Name": "MegascansPlugin",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
 		}
 	]
 }
